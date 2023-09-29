@@ -4,7 +4,7 @@ Working on a summer project with my professor and classmate. The overall goal is
 take in data and display data on a computer screen. For this to happen, we will be using PIC18F45K20 and EUSART to connect 
 to a computer.
 ## Files
-### test
+### [test](https://github.com/JP-Sonoma/Project/tree/main/test)
 This file was added as a test file for working with Github. This is a blinking LED Test for working with STM32 Eval 2 board that includes using FreeRTOS. The code has individual handlers for blinking the individual LEDs on the board, Setting them together and resetting together.
 ### EUARST.X
 This project uses MCC Classic from MPLab IDE to set up the Microprocessor, PIC18F45K20, and uses a UART module to transmit a range of values from 0.00 to 2.00 with it reseating to 0.00 after reaching 2.00.
